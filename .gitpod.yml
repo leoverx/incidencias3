@@ -1,4 +1,0 @@
-tasks:
-  - name: Install Heroku CLI
-    init: |
-      npm install -g heroku
