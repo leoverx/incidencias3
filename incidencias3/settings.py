@@ -50,6 +50,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+CSRF_TRUSTED_ORIGINS = ['https://8000-leoverx-incidencias3-e4mf21swd7o.ws-us102.gitpod.io']
+
 ROOT_URLCONF = 'incidencias3.urls'
 
 TEMPLATES = [
